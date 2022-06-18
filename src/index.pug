@@ -1,0 +1,27 @@
+doctype html
+html(xmlns='http://www.w3.org/1999/html', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Dzmitry's page
+    link(rel='shortcut icon', type='image/jpg', href=require("./img/avatar.jpg?sizes[]=96&quality=100").src)
+  body
+    .container(style='background-color: #D22630; margin: 0; max-width: none;')
+      section.section
+        .container.is-centered
+          .is-grouped-centered.has-text-centered
+            h2.title(style='color: #fff;') I'm against russian invasion in Ukraine
+            img(style='outline: 2px solid #FFF;', width='148', src=require("./img/ukraine.svg"), alt='Слава Україні!')
+    section.section
+      .container
+        .container.is-centered
+          .is-grouped-centered.has-text-centered
+            figure.image.is-96x96.is-inline-block
+              img.is-rounded(width='96', height='96' src=require("./img/avatar.jpg?sizes[]=96&quality=100").src, alt='Dzmitry Savitski')
+            h1.title Dzmitry Savitski
+            p.subtitle Software engineer. Outsource boutique.
+            a.icon.fa.fa-github.p-2.is-inline.fa-xl(href="https://github.com/dzmitro", target="_blank")
+            a.icon.fa.fa-linkedin.p-2.is-inline.fa-xl(href="https://linkedin.com/in/da-savitskiy", target="_blank")
+        section.section
+          .container.is-centered
+            .has-text-centered Hello!I create a Large Software Project Alone, From Scratch.
